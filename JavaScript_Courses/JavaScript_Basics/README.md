@@ -2,6 +2,9 @@
 
 ### Programming Basics with JavaScript
 
+- Preparation - All Judge Problems Solved;
+- Oct_2022 - Judge Problems Solved in Class & Class Notes;
+
 ### Preparation - All Judge Problems Solved
 
 - First Steps In Coding - Lab
