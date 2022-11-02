@@ -1,0 +1,20 @@
+notes PB JS (JavaScript) 02 Oct
+
+1. Ученето на програмиране е Маратон
+
+2. Всеки код, к. пишем трябва да се запазва
+
+3. English
+
+
+* Клавишни шорткътс:
+Ctrl + C = copy
+Ctrl + V = paste
+Ctrl + / = commenting/uncommenting
+Ctrl + A = select ALL
+Ctrl + Z = Undo
+Ctrl + X = cut (for later paste, or for delete)
+
+VSC => Ctrl + F5 => Run without debugging
+       Shift + Alt + F => Format
+
