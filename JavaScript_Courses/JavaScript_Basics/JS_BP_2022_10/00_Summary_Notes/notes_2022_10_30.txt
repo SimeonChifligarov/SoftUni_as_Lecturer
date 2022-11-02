@@ -1,0 +1,28 @@
+
+// let helper = 0;   // let command = input[i]; i++;
+// while (cond1) {  // (command != "Stop")
+
+
+//    cond1 = ...    // command = input[i]; i++;
+// }
+
+// break; 
+// continue;
+
+let num = 0;
+while (true) {   // command != "Stop" ; money < 1000;
+    if (cond1) {
+        ...;
+        break;
+    }
+
+    if (cond2) {
+        ...;
+        break;
+    }
+
+    mainLogic...
+
+}
+
+// console.log(num);
