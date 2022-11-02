@@ -1,0 +1,59 @@
+// // let a = "3330";
+
+// // let b1 = +a;
+
+// // let x = 22;
+// // let y = x + "";
+// // console.log(y === "22");
+
+
+// // let b = Number(a);  // 3330
+
+// // console.log(b1 === "3330");  // == по value И по type
+// // console.log(b1 == "3330");  // 
+
+// // // console.log(a);
+
+// // let c = 33;
+
+// // let d = String(c);  // self-documented
+// // console.log(d === "33");
+// // console.log('---');
+// // console.log(d == "33");
+// // console.log(d == 33);
+
+
+// // let a = 1; 
+// // // console.log(++a);
+// // // console.log(a);
+// // a++;
+// // console.log(a);
+
+
+// // let b = 1;
+// // // console.log(b++);
+// // // console.log(b);
+// // console.log(b);
+// // b++;
+
+// let a = 100;
+
+
+// a += 10;  // a = a + 10;  // += -= /= *= %=
+
+// a++;  // a += 1;  // a = a + 1;
+
+
+cost *= 0.95;
+
+%;
+
+num1 / (num1 + num2 + num3) = 0.67
+
+`(0.67 * 100)%`  // => "67%"
+
+
+
+
+
+
