@@ -1,0 +1,98 @@
+1. Debug
+2. Exam
+
+
+if (condition1) {		"живот на променлива"
+   if (condition4) {
+
+   } else {
+   }
+
+} else if (condition1) {
+   if (condition4) {
+
+   } else {
+   }
+
+
+} else if (condition3) {
+
+} else {
+
+}
+
+condition1 => true Или до false
+
+= -> назначаване на стойност; let a = 15;
+
+== -> a == b
+>=
+<=
+
+!= 
+
+==    15 == 15 => true;  "15" == 15 => true;
+===   13 == 13 => true;  "13" === 13 => false;
+
+
+switch (myCase):
+    case 1:
+	   ...; 
+    case 2:
+ 	   ...; break;
+    default:
+	   ...; break;
+    case 3:
+	   ...; break;
+
+
+if - else if - else
+
+
+
+
+
+
+
+
+`` => console.log(``)
+
+
+Отстъпка в % при условие;
+
+5% отстъпка => cost *= 0.95;  // cost = cost * 0.95
+// 5% => 0.05                 1.00 - 0.05
+25% отстъпка => cost *= 0.75;
+66%          => cost *= 0.33;
+
+// 5% оскъпяване => cost = cost + 0.05 * cost =
+= cost (1 + 0.05) = 1.05 * cost ; cost *= 1.05;
+
+
+
+
+
+
+
+
+
+
+&&
+||
+!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
