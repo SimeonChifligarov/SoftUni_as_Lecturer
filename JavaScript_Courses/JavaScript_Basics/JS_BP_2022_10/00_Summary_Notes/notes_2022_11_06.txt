@@ -1,0 +1,27 @@
+input = ['az', 'ti', 'ti', 'toi', 'az', 'toi', 'END', 'toi']
+
+let i = 0;
+
+let currentCommand = input[i];
+i++;
+
+while (currentCommand != 'END') {
+    if (currentCommand == 'ti') {
+        currentCommand = input[i];
+        i++;
+        continue;
+    }
+
+    console.log(currentCommand);
+
+    currentCommand = input[i];
+    i++;
+}
+
+if ()
+break;
+
+while (true) {
+    ...
+}
+
