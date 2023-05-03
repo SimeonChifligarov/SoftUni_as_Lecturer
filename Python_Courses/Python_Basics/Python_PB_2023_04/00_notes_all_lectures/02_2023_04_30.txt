@@ -1,0 +1,37 @@
+str      -> str(variable)
+int      -> int(variable)
+float    -> float(variable)
+boolean  -> bool(variable)
+# {True, False}  # true, false
+
+Python -> case-sensitive
+
+if condition:
+    some_code...
+	some_code_line_2...
+
+if condition:  # if-else
+	...
+else:
+	...
+
+if condition:  # if-elif-else  # if-elif
+	...
+elif condition_2:  # else if
+	...
+elif condition_3:
+	...
+else:
+	...
+
+
+# comparison operators
+not ==
+==  # int/float ; str
+!=  # int/float ; str  
+>   # int/float
+>=  # int/float
+<
+<=
+
+
