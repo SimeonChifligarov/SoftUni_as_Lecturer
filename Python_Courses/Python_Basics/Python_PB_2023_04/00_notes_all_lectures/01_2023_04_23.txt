@@ -1,0 +1,37 @@
+# soft skills -> ...
+# English
+
+# 
+
+Source code
+
+Python
+
+IDE -> PyCharm
+
+snake_case_convention = "1337"  # '1337'  # CONSTANTS_NAMING_USE_ALL_UPPERCASE
+
+str - низ, текст
+int - цяло число => {1, 2, 3...} + { 0 } + {-1, -2, ...}
+float - реално число => 2.22, 3.33, 3.14; 1.00
+
++ - * / // % **
+
+import library
+
+# Shortcuts
+
+Ctrl + C => copy
+Ctrl + V => paste
+Ctrl + X => cut
+Ctrl + A => select all
+Ctrl + D => paste lines
+Ctrl + Z => Undo
+Ctrl + Shift + Z => Redo
+
+# IDE shortcuts
+
+Ctrl + Shift + F10 => run .py
+Ctrl + / => comment/uncomment
+
+
