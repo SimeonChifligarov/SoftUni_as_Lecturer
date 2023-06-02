@@ -1,0 +1,37 @@
+# SoftSkills
+# Collaboration
+# Commucation
+# -> Feedback
+#    - objective, balanced, timely
+#
+#
+
+# 
+for number in range(start, end, step):  # [start, end)
+
+#1 for num in range(end):  # start=0, step=1
+#2 for num in range(start, end):  # step=1
+#3 for num in range(start, end, step):
+
+# print('it is all right')
+
+# for number in range(4):
+#     print("yesss!", end="👏\n")
+
+# range()
+#
+# num = int(input())
+#
+# if num > 10:  # if num <= 10:
+#     my_case = "greater than 10"
+# else:
+#     my_case = "not greater than 10"
+#
+# print(my_case)
+
+# for _ in range(5):  # [0, 1, 2, 3, 4] == [0, 1, 2, 3, 4, 5)
+#     # print(f"Attempt No: {attempt}")
+#     print("Trying to fetch data...")
+#     # print(_)
+
+text[i]  # "Simo"[1]  # in programming we count from 0
