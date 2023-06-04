@@ -1,0 +1,22 @@
+nested loops;
+
+nested if statements;
+
+for/while ...
+    for/while ...
+	   if ...
+
+
+# we should always know how our program is running line by line
+
+
+### Exam tips:
+
+5%             -> 5x6 = 30
+
+6 x 100 = 600  -> 100%  -> 105%
+5 x 100
+6 x 70         -> 100% [95%]
+
+
+
