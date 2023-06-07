@@ -1,0 +1,6 @@
+console.log("My text goes here")
+console.log("line 2")
+console.log("runtime")
+console.log("My text goes here")
+
+console.log(13/0)
