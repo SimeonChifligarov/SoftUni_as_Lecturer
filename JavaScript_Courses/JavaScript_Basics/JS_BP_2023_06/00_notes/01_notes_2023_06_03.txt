@@ -1,0 +1,33 @@
+* Team work
+* English
+* Lifelong learning
+
+UI
+UX
+
+Shortcuts:
+
+Ctrl + C => copy
+Ctrl + V => paste
+Ctrl + A => select all
+Ctrl + X => cut
+
+VSC: (Visual Studio Code)
+
+Ctrl + / => comment / uncomment
+Shift + Alt + F => format document
+log + Tab => console.log();
+
+// in programming we count from 0...
+
+NaN -> Not A Number
+
+Naming Conventions:
+camelCase -> for JS;  myFirstVariable
+snake_case -> my_first_variable (we do not use this one)
+kebab-case -> my-first-variable
+upperCamelCase / PascalCase -> MyFirstVariable
+
+Math operations between Number(s)
+
++ - * / %
