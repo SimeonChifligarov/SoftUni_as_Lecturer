@@ -1,4 +1,4 @@
-# 02_PB_Exam_6_7_April_2019 (exam 2)
+# 02_PB_Exam_6_7_April_2019
 
 ### Problems:
 - 00_for_testing.py
