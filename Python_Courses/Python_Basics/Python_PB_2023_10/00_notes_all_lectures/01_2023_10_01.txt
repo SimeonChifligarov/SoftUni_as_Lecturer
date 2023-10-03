@@ -29,14 +29,18 @@ float(input()) => 13.0
 ###
 Ctrl + C => copy
 Ctrl + V => paste
+Ctrl + X => cut
+Ctrl + Z => undo
 
 
 # IDE commands
 
 Ctrl + Shift + F10  => run current file
 Ctrl + / => comment/uncomment
+Ctrl + Shift + Z => redo
 
 
 # Code readability
 
-
+# TODO: 1. Separation of concerns -> input() != processing
+# TODO: 2. CONSTANTS -> not needed for our purposes
