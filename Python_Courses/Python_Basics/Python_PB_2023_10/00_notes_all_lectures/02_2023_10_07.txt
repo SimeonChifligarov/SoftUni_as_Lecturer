@@ -1,0 +1,59 @@
+refactoring => ...
+
+data types:
+str, int, float
+
+bool (Boolean) => { True, False}  ; NOT true, NOT false, i.e. case-Sensitive
+type(True)  => bool
+
+cast/convert;
+int(input())  => 13
+float(input()) => 13.0
+
+str(13)  => "13"
+bool("13")  => True
+bool("")  => False
+
+Python -> dynamically typed language
+var_1 = str
+var_1 = int
+
+Python -> strongly typed language
+не прави имплицитни cast
+
+###
+Testing:
+1. Happy case -> ...
+2. Unhappy case -> ...
+3. Edge case(s)
+
+
+###
+if-elif-else
+
+1) single if
+if condition:
+    do something...
+
+2) simple if-else
+if condition:
+   do something...
+else:
+   do something else...
+
+3) if-elif-else ; if-elif-elif-elif-...-else
+
+if condition_1:
+    do_something_1
+elif condition_2:
+    do_something_2
+elif condition_3:
+	do_something_3
+...
+else:
+	do_action_for_other_cases
+
+
+
+
+	
