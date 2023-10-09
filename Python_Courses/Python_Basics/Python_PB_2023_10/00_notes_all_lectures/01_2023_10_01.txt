@@ -32,15 +32,20 @@ Ctrl + V => paste
 Ctrl + X => cut
 Ctrl + Z => undo
 
+tab => indent
+shift + tab => unindent
 
 # IDE commands
 
 Ctrl + Shift + F10  => run current file
 Ctrl + / => comment/uncomment
 Ctrl + Shift + Z => redo
+Ctrl + D => double selected line(s)
+Ctrl + Alt + L => reformat code
 
 
 # Code readability
 
-# TODO: 1. Separation of concerns -> input() != processing
+# TODO: 1. Separation of concerns -> input() != processing  # SRP -> Single Responsibility Principle
+        part of SOLID principles
 # TODO: 2. CONSTANTS -> not needed for our purposes
