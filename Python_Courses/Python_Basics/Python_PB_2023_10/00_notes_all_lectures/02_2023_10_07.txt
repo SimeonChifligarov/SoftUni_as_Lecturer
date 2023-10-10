@@ -48,10 +48,10 @@ if condition_1:
 elif condition_2:
     do_something_2
 elif condition_3:
-	do_something_3
+    do_something_3
 ...
 else:
-	do_action_for_other_cases
+    do_action_for_other_cases
 
 
 
