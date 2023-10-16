@@ -18,7 +18,7 @@ bool(0)      => False   # 0.0
 ==  # int, float; str		# var1 == var2  => True/False
 !=  # int, float; str
 
->   # int, float;		# var3 > var4     => True/False
+>   # int, float;			# var3 > var4     => True/False
 >=  # int, float;
 <   # int, float;
 <=  # int, float;
@@ -38,7 +38,7 @@ if condition1:
     some_logic_line1
     some_logic_line2
 else:
-    some_logic_2
+	some_logic_2
 	
 3) if-elif-else
 if condition1:
@@ -75,14 +75,14 @@ code readability
 1. to take 100 points
 2. to think about missed cases  # BUGS
 
-3. refactoring
+3. refactoring  => clean code AND clean architecture
 
 ###
 num += 13  # num = num + 13
 
 +=
--=	   # num = num - 13
+-=		   # num = num - 13
 *= 15      # num = num * 15
 /=
 //=
-
+**=
