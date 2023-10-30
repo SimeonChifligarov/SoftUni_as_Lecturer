@@ -1,0 +1,27 @@
+while - cycle
+
+
+condition                    # initialization
+while condition:             # check
+   do_some_logic_1
+   do_some_logic_1
+   change condition          # potential change
+   
+
+while True:
+   ...
+   
+is_goal_achieved = False
+while not is_goal_achieved:  # iteration 1: not is_goal_achieved == not False == True
+   ...
+   ...
+   if condition:
+      is_goal_achieved = True
+
+#
+
+operators -> break; continue;
+	# make sense in (nested) if-statements
+
+#
+while-else  (as if-else; for-else)
