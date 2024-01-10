@@ -1,8 +1,9 @@
 Python
-  - high level language
-  - 2 main adv:
+  - high-level language
+  - general purpose language
+  - 2 main advantages:
     - easy to learn
-	  - big community
+    - big community
 
 Source code
 
@@ -12,7 +13,8 @@ snake_case_naming_convention
 caseSensitivity  # age != Age != aGe
 
 Data types:
-str -> низ, текст, стринг => 'text here', "text here again", '', '13'
+str -> низ, текст, стринг => 'text here', "text here again", '', '13',
+        -> също str => 'Текст на кирилица', '😎✅'
 int -> целочислени стойности => 13; {1, 2, 3...} + { 0 } + {-1, -2 ...}
 float -> реални числа, дробни, с плаваща... => 3.14, 2.2222, -13.0
 
@@ -31,8 +33,9 @@ help()
 11 % 5 == 1   (__mod__)  remainder
 
 cast/convert;
-int(input('13'))  => 13
-float(input('13')) => 13.0
+input() -> '13':
+  int(input()) == int('13')  => 13
+  float(input()) == float('13') => 13.0
 
 ###
 Ctrl + C => copy
