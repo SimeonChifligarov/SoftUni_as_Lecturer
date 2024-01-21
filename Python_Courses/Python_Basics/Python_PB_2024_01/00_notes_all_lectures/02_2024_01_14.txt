@@ -17,10 +17,10 @@ bool(0)      => False   # 0.0
 
 ### comparison operators  != Logical operators - { and, or, not }
 
-==  # int, float; str		# var1 == var2  => True/False
+==  # int, float; str       # var1 == var2  => True/False
 !=  # int, float; str
 
->   # int, float;			# var3 > var4     => True/False
+>   # int, float;           # var3 > var4   => True/False
 >=  # int, float;
 <   # int, float;
 <=  # int, float;
