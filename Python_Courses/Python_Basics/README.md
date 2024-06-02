@@ -2,6 +2,16 @@
 
 ### Programming Basics with Python
 
+- Lectures: Theory & Judge Problems Solved in Class & Class Notes
+    - PB June 2024
+
+- Exercises: Judge Problems Solved in Class & Class Notes (Theory summary)
+    - PB January 2024
+    - PB October 2023
+    - PB April 2023
+
+### Programming Basics with Python
+
 - Preparation - All Judge Problems Solved
 - Apr_2023 - Judge Problems Solved in Class & Class Notes
 
