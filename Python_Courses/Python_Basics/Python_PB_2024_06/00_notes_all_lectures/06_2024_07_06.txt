@@ -1,0 +1,45 @@
+[ 04_Python_PB_Jun_2024_Lectures ]
+[ Lecture 6 ]
+
+concept 1: nestedness
+concept 2: loops  (for & while-loops)
+
+=> combine:
+    - nested loops
+
+=====
+
+for/while ...:
+   outer_logic_1
+   
+   for/while ...:
+      inner_logic
+	  
+   
+    outer_logic_2
+
+
+=====
+break for nested loops -> implementation with flag_boolean_variable
+
+
+=====
+complex problem:
+  - divide it to simple problems/tasks
+  
+1. complex problem skeleton
+2. simple task -> to check if number is prime
+
+=======
+5% => ... [4.5%]
+
+6 x 100 => 600
+
+5% => 5x6 = 30
+
+5x100 = 500
+1x70 => 70
+
+100% => 105%
+
+=======
