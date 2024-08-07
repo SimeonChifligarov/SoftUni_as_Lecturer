@@ -1,49 +1,59 @@
-function cinemaTickets(input) {
-    let studentCount = 0;
-    let standardCount = 0;
-    let kidCount = 0;
-
+function cinemaTickets(input) { 
+    let studentCurrent = 0;
+    let stardardCurrent = 0;
+    let kidCurrent = 0;
+    
+    let totalTickets = 0;
+    
+    
     let i = 0;
-
+    let currentMovie = input[i];
+    i++;
+    
+    while (currentMovie != 'Finish') {
+    let seatAvailable = Number(input[i]);
+    i++;
+    let seatBougth = 0;
+    
     while (true) {
-        let movie = input[i];
-
-        if (movie == "Finish") {
-            break;
-        }
-
-        i++;
-        let seatsAvailable = Number(input[i]);
-        let seatsBought = 0;
-
-        while (seatsAvailable > seatsBought) {
-            i++;
-            let currentSeat = input[i];
-
-            if (currentSeat == "End") {
-                break;
-            }
-
-            seatsBought++;
-            if (currentSeat == "student") {
-                studentCount++;
-            } else if (currentSeat == "standard") {
-                standardCount++;
-            } else if (currentSeat == "kid") {
-                kidCount++;
-            }
-        }
-
-        console.log(`${movie} - ${((seatsBought / seatsAvailable) * 100).toFixed(2)}% full.`);
-        i++;
+    if (seatAvailable == seatBougth) {
+    break;
     }
-
-    let totalTickets = studentCount + standardCount + kidCount;
-    console.log(`Total tickets: ${totalTickets}}`);
-    console.log(`${(studentCount / totalTickets * 100).toFixed(2)}% student tickets.`);
-    console.log(`${(standardCount / totalTickets * 100).toFixed(2)}% student tickets.`);
-    console.log(`${(kidCount / totalTickets * 100).toFixed(2)}% student tickets.`);
-}
+    
+    let currentTicket = input[i];  
+    i++;
+    
+    if (currentTicket == "End") {
+    break;
+    }
+    
+    seatBougth++;
+    totalTickets++;
+    if (currentTicket == "student") {
+    studentCurrent++;
+    } else if (currentTicket == "standard") {
+    stardardCurrent++;
+    } else if (currentTicket == "kid") {
+    kidCurrent++;
+    }
+    
+    }
+    
+    
+    console.log(`${currentMovie} - ${(100 * seatBougth / seatAvailable).toFixed(2)}% full.`);
+    
+    
+    currentMovie = input[i];
+    i++;
+    }
+    
+    
+    console.log(`Total tickets: ${totalTickets}`);  
+    console.log(`${(100 * studentCurrent / totalTickets).toFixed(2)}% student tickets.`);
+    console.log(`${(100 * stardardCurrent / totalTickets).toFixed(2)}% standard tickets.`);
+    console.log(`${(100 * kidCurrent / totalTickets).toFixed(2)}% kids tickets.`);
+    
+    }
 
 
 // cinemaTickets([
