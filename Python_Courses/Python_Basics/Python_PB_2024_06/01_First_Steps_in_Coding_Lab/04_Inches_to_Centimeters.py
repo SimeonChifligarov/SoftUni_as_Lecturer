@@ -1,5 +1,5 @@
 # read user input
-inches = int(input())
+inches = float(input())
 
 # logic
 cms = inches * 2.54
