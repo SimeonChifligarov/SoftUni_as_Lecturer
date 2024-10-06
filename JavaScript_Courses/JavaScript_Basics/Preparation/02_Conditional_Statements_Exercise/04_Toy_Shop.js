@@ -1,37 +1,38 @@
 function toyShop(input) {
-    // let puzzlePrice = 2.60;
-    // let speakingDollPrice = 3;
-    // let teddyBearPrice = 4.10;
-    // let minionPrice = 8.20;
-    // let toyCarPrice = 2;
+    
+    let puzzleCost = 2.60;
+    let dollCost = 3;
+    let teddyBearCost = 4.10;
+    let minionCost = 8.20;
+    let carCost = 2;
 
-    let vacationPrice = Number(input[0]);
+    let vacationCost = Number(input[0]);
     let puzzleCount = Number(input[1]);
-    let speakingDollCount = Number(input[2]);
-    let teddyBearCount = Number(input[3]);
-    let minionCount = Number(input[4]);
-    let toyCarCount = Number(input[5]);
+    let dollCount = Number(input[2]);
+    let teddyBearsCount = Number(input[3]);
+    let minionsCount = Number(input[4]);
+    let carsCount = Number(input[5]);
 
-    let totalSum = 2.6 * puzzleCount + 3 * speakingDollCount + 4.1 * teddyBearCount + 8.2 * minionCount + 2 * toyCarCount;
+    let totalCount = puzzleCount + dollCount + teddyBearsCount + minionsCount + carsCount;
 
-    let totalCount = puzzleCount + speakingDollCount + teddyBearCount + minionCount + toyCarCount;
+    let totalIncome = puzzleCost * puzzleCount + dollCost * dollCount
+        + teddyBearCost * teddyBearsCount + minionCost * minionsCount + carCost * carsCount;
 
     if (totalCount >= 50) {
-        totalSum *= 0.75;
+        totalIncome *= 0.75;
 
-        // let discount = totalSum * 0.25;
-        // totalSum -= discount;
+        // let discount = totalIncome * 0.25;
+        // totalIncome -= discount;
     }
 
-    totalSum *= 0.90;
+    totalIncome *= 0.90;
 
-    let difference = totalSum - vacationPrice;
-
-    if (difference >= 0) {
-        console.log(`Yes! ${difference.toFixed(2)} lv left.`);
+    if (totalIncome >= vacationCost) {
+        console.log(`Yes! ${(totalIncome - vacationCost).toFixed(2)} lv left.`);
     } else {
-        console.log(`Not enough money! ${-difference.toFixed(2)} lv needed.`);
+        console.log(`Not enough money! ${(vacationCost - totalIncome).toFixed(2)} lv needed.`);
     }
+
 }
 
 // toyShop(["40.8", "20", "25", "30", "50", "10"]);

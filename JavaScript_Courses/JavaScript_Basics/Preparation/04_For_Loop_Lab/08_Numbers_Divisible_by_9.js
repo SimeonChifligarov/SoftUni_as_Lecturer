@@ -8,7 +8,7 @@ function numbersDivisibleBy9(input) {
     for (let i = num1; i <= num2; i++) {
         if (i % 9 == 0) {
             sum += i;
-            numbersAsText += `${i} `;
+            numbersAsText += `${i}\n`;
         }
     }
 
