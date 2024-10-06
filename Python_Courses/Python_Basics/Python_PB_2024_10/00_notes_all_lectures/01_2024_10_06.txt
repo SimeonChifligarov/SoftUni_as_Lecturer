@@ -1,0 +1,79 @@
+[ 05_Python_PB_Oct_2024_Lectures ]
+[ Lecture 1 ]
+
+Python
+  - high-level language
+  - general purpose language
+  - 2 main advantages:
+    - easy to learn
+    - big community
+	
+Python:
+ - dynamically typed
+ - strongly typed
+
+Source code
+
+IDE -> PyCharm
+
+snake_case_naming_convention
+caseSensitivity  # age != Age != aGe
+
+Data types:
+str -> низ, текст, стринг => 'text here', "text here again", '', '13',
+        -> също str => 'Текст на кирилица', '😎✅'
+int -> целочислени стойности => 13; {1, 2, 3...} + { 0 } + {-1, -2 ...}
+float -> реални числа, дробни, с плаваща... => 3.14, 2.2222, -13.0
+
+type()
+
+input() => str
+
+help()
+
++ - / * **  => PEMDAS / (), **, (*, /), (+, -)   (3 + 2) * 5
+// %
+
+11 / 5 == 2.2  (__truediv__)
+
+11 // 5 == 2  (__floordiv__)
+11 % 5 == 1   (__mod__)  remainder
+
+cast/convert;
+input() -> '13':
+  int(input()) == int('13')  => 13
+  float(input()) == float('13') => 13.0
+  str(3) -> '3'
+  str('3') -> '3'
+
+###
+Ctrl + C => copy
+Ctrl + V => paste
+Ctrl + X => cut
+Ctrl + Z => undo
+Ctrl + A => select all
+
+tab => indent
+shift + tab => unindent
+
+# IDE commands (PyCharm)
+
+Ctrl + Shift + F10  => run current file
+Ctrl + / => comment/uncomment
+Ctrl + Shift + Z => redo
+Ctrl + D => double selected line(s)
+Ctrl + Alt + L => reformat code
+
+
+# 
+
+
+# TODO: 1. Separation of concerns -> input() != processing  # SRP -> Single Responsibility Principle
+        part of SOLID principles
+# TODO: 2. CONSTANTS -> not needed for our purposes
+
+
+ETL
+1. Extract
+2. Transform
+3. Load
