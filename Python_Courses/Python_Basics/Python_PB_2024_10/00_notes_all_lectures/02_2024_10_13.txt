@@ -1,0 +1,110 @@
+[ 05_Python_PB_Oct_2024_Lectures ]
+[ Lecture 2 ]
+
+Control flow
+
+str     => str(variable)  # str(12) => "12"
+, int   => int(variable)  # int("12") => 12  int(1 + 2 + 3) => int(6) => 6
+, float => float(variable)
+, bool  => bool(variable)
+
+bool -> { True, False }
+
+Python - case-Sensitive
+
+bool("Simo") => True
+bool("")     => False
+
+bool(1337)   => True
+bool(0)      => False   # 0.0
+
+### comparison operators  != Logical operators - { and, or, not }
+
+==  # int, float; str       # var1 == var2  => True/False
+!=  # int, float; str
+
+>   # int, float;           # var3 > var4   => True/False
+>=  # int, float;
+<   # int, float;
+<=  # int, float;
+
+###
+
+if-elif-else
+
+1) simple if
+
+if condition1:
+    some_logic_line1
+    some_logic_line2
+	
+if condition2:
+    some_logic_line1
+    some_logic_line2
+
+2) if-else
+if condition1:
+    some_logic_line1
+    some_logic_line2
+else:
+	some_logic_2
+	
+3) if-elif-else
+if condition1:
+    some_logic_line1
+    some_logic_line2
+elif condition2:  # else if
+    some_logic2
+elif condition3:
+    some_logic3
+else:
+	some_logic_for_else
+
+###
+condition1 = num1 > 200  # True/False
+condition1 = "Peter"
+if condition1:
+    some_logic_line1
+
+if condition2:
+    some_logic_line2
+
+###
+###
+
+quality code
+
+1. clean code
+2. clean architecture
+
+code readability
+
+###
+
+1. to take 100 points
+2. to think about missed cases  # BUGS
+
+3. refactoring  => clean code AND clean architecture
+
+###
+num += 13  # num = num + 13
+
++=
+-= 13      # num = num - 13
+*= 15      # num = num * 15
+/=
+%=
+//=
+**=
+
+###########
+2. to think about missed cases  # BUGS
+ -> edge cases; corner cases; off-by-one cases
+
+
+DevOps => Development + Operations
+DevSecOps => Dev + Security + Ops
+
+###########
+input()  # from console to app => always string
+print()  # from app to console => always string
