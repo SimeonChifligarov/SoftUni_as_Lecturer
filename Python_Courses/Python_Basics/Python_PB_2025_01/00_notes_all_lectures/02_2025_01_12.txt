@@ -1,4 +1,4 @@
-[ 07_Python_PB_Jan_2025_Lectures ]
+[ 07_Python_PB_Jan_2025_Problems ]
 [ Lecture 2 ]
 
 Control flow

@@ -1,4 +1,4 @@
-[ 05_Python_PB_Oct_2024_Lectures ]
+[ 07_Python_PB_Jan_2025_Problems ]
 [ Lecture 3 ]
 
 1. nestedness
@@ -59,7 +59,7 @@ T   -> False
 F   -> True
 
 
-[ boolean short-circuiting?]
+[ boolean short-circuiting? ]
 when we have complex check:
 logical OR => evaluation stop at first True value => True
 
