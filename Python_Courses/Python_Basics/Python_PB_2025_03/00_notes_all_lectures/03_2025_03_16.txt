@@ -1,0 +1,112 @@
+[ 08_Python_PB_Mar_2025_Problems ]
+[ Lecture 3 ]
+
+1. nestedness
+  -> nested if-elif-else structure
+
+[pseudocode]
+if condition_1:
+	line_1
+	line_2
+	if condition_2:
+		line_3
+		line_4
+elif condition_3:
+	...
+else:
+	...
+
+
+
+2. Logical operators
+and, or, not  # NOT &&, ||, !  # !=
+
+condition_1 -> value; simple check;
+			-> complex check;
+
+
+priority => PNAO -> (), not, and, or
+
+from https://discuss.codecademy.com/t/what-is-the-order-of-operations-for-logical-operators/452126/3
+# print(True or False and False)     # and has precedence
+# print((True or False) and False)   # parentheses change precedence
+#
+# print(not False or True)        # not has precedence
+# print(not (False or True))      # parentheses change precedence
+
+Pythonic way of check:
+if 50 < number < 60:  # eq "if number > 50 and number < 60:"
+    ...
+	# numbers is in interval (50; 60)
+
+bool => { True, False }
+
+### Truth tables
+		and
+T T		T      # if True and True:  == if True:
+T F		F      # if True and False: == if False:
+F T		F
+F F		F
+
+		or
+T T		T      # if True or True:  == if True:
+T F		T
+F T		T
+F F		F
+
+	not
+T   -> False
+F   -> True
+
+### Analogy
+T => 1
+F => 0
+
+and => *
+or => +
+### Analogy end
+
+### Example
+num = 101
+1. num > 50
+2. num % 2 == 0
+
+1. and 2. ==> T and F == F
+if num > 50 and num_is_not_even
+### Example end
+
+
+[ boolean short-circuiting?]
+when we have complex check:
+logical OR => evaluation stop at first True value => True
+
+logical AND => evaluation stop at first False value => False
+
+
+
+copy-paste mistakes;
+
+DRY principle => Do not Repeat Yourself
+
+...
+
+max 3-nestedness
+
+if ...:
+    if ...:
+        if ...:
+
+
+
+if ...:
+        if ...:
+                if ...:
+
+
+
+# edge cases / corner cases
+
+# off-by-one mistakes
+
+
+Principle of separation of concerns
