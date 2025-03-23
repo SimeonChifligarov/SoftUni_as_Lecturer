@@ -1,0 +1,88 @@
+[ 04_Python_PB_Mar_2025_Problems ]
+[ Lecture 4 ]
+
+# for cycle
+# base structure ->
+for el in collection:
+    ...
+
+1) for char in 'some_string':  # ['s', 'o', 'm', ..., 'g']
+	...
+	
+2) for i in range(...):
+	...
+
+###
+
+for i in range(start, stop, step):  # range object -> base structure
+
+#	[start; stop) == [start; stop - 1] ; range(0, 5, 1) => [0, 5) == [0, 1, 2, 3, 4]
+                                         |-> range(5)
+# 1.
+
+# for i in range(0, stop, 1):
+for i in range(stop):  # default values; start=0; step=1;
+
+range(4) => [0, 1, 2, 3] == [0; 4)
+=> in programming we count starting from 0
+
+# 2.
+
+# for i in range(start, stop, 1):
+for i in range(start, stop):  # step=1
+
+range(1, 10) => [1, 2, ..., 9] == [1; 10)
+
+# 3.
+
+for i in range(1, 25, 3):  => [1, 4, 7, ..., 22] == [1; )
+
+
+=> operators
+
+break
+continue
+
+==================
+
+# range(1, 10, 3) => [1, 1+3 == 4, 4+3 == 7] => [1, 4, 7]
+# range(1, 10, 77) => [1]
+# range(100, 10, 5) => []  # 100... 105... 110...
+# range(10, 29, -5) => []
+# range(39, 29, -5) => [39, 34]
+
+==================
+
+text = "I am feeling good"  # type str
+
+print(len(text))  # 17
+
+print(text[2])  # "a"
+
+==================
+
+# -5 -4 -3 -2 -1
+# P  e  t  e  r
+# 0  1  2  3  4
+
+# name = 'Peter'
+# print(name[0])
+# print(name[-1])
+
+# print(name[-1])  # -1
+# print(name[len(name) - 1])  # 5 - 1 = 4
+
+==================
+
+GUI => Graphical User Interface
+
+DRY => principle
+
+==================
+if-else
+
+
+for-else
+
+1) 100mln lines of code
+2)   5mln lines of code
