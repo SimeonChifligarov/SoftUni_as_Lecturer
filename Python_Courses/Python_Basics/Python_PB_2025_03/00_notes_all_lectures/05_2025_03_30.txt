@@ -1,0 +1,49 @@
+[ 05_Python_PB_Mar_2025_Problems ]
+[ Lecture 5 ]
+
+while - cycle
+
+condition                    # initialization 1.
+while condition:             # check          2.
+   some_logic_here...
+   change condition          # potential change 3.
+
+
+condition                    # initialization 1.
+while condition:             # check          2.
+   do_some_logic_1
+   do_some_logic_2
+   if cond_2:
+       break
+	   
+   if cond_3:
+      change condition       # potential change ALWAYS BEFORE continue
+      continue
+   change condition          # potential change 3.
+   
+
+while True:
+   ...
+   
+is_goal_achieved = False
+while not is_goal_achieved:  # iteration 1: not is_goal_achieved == not False == True
+   ...
+   ...
+   if condition:
+      is_goal_achieved = True
+
+#
+
+operators -> break; continue;
+	# make sense in (nested) if-statements
+
+#
+while-else  (as if-else; for-else)
+
+
+# [OFF-TOPIC]
+# # complex condition
+while cond1 and cond2 and cond3...
+
+
+DRY principle => Do not Repeat Yourself
